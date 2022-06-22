@@ -3,6 +3,7 @@
 
 ### Story behind this project:
 
+
 In our previous project, we worked on providing accurate investment decisions when it comes to Canadian Banks. We have worked on 4 major Canadian Banks, Toronto Dominion Bank, Bank of Montreal, Bank of Nova Scotia and Royal Bank of Canada. We have have compared their performance over the last 6 years with respect to S&P500. 
 
 In this project, our team has worked on implementing Machine Learning Techniques to predict the performance of those Canadian Banks, taking their historical data into accounts and predict how they might perform in the future.

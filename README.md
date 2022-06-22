@@ -15,7 +15,7 @@ Although our model is based on 4 Canadian Banks, because our main focus was to p
 On top of that, our app is also equiped to give the users the opportunity to select the batch and epochs number he wants to train the model with, and fetch results.
 
 Our goal was to take our previous project where we only showed the client which banking stocks he wants to invest in based on his willingness of risk and take it a step further by making it easier for the client to dive into the technical aspects of any sort of investment decisions.
-Although this app is at the momonet restricted with only four stocks, it can be also trained with any sort of stock data and the fetched results can be expected to be as accurate as our model.
+Although this app is at the momonet restricted with only four stocks, it can be also trained with any sort of stocks data or basically any other data the customer demands, and the fetched results can be expected to be as accurate as our model.
 ### Technical Explanations:
 
 ### Future Goals:

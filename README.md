@@ -21,3 +21,4 @@ Although this app is at the momonet restricted with only four stocks, it can be 
 ### Future Goals:
 
 Our aim is to make this app more user friendly, adding more features where not only stock investment decisions could be made, but it will also contain more investment areas such as cryptocurrency and even real state. Where customers would choose the choose the cryptocurrency tickers. They would also be able to choose areas where they would want to purchase a property and make comparison between properties where they wants to invest in and see which investment decisions would yeield the maximum profit in the coming days. We also aim to introduce more features for our model to train in such as NLP to get more accurate results.
+wgefgf

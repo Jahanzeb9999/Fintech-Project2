@@ -14,16 +14,12 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
 
-
-
-
 START = "2016-01-01"
 TODAY = dt.datetime.now().strftime("%Y-%m-%d")
 
 st.title("Stock Prediction App")
 
 stocks = ["Select the Stock", "BMO", "TD", "BNS", "RY"]
-
 
 # Loading Data ---------------------
 
@@ -60,9 +56,7 @@ def stock_financials(stock):
     st.write('52 Week Low -', fiftyTwoWeekLow)
     st.write('200 Day Average -', twoHunDayAvg)
 
-
 #Plotting Raw Data ---------------------------------------
-
 def plot_raw_data(stock, data_1):
     df_ticker = yf.Ticker(stock)
     Name = df_ticker.info['longName']
@@ -82,7 +76,6 @@ def plot_raw_data(stock, data_1):
         plotly_figure.update_xaxes(title_text='Date')
         plotly_figure.update_layout(legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01, title="Price"), width=800, height=550)
         st.plotly_chart(plotly_figure)
-
 
 #For LSTM MOdel ------------------------------
 
@@ -157,8 +150,6 @@ def create_train_test_LSTM(df, epoch, b_s, ticker_name):
     plt.plot(valid[['Close', 'Predictions']])
     plt.legend(['Actual', 'Predictions'], loc='upper left', prop={"size":20})
     st.pyplot()
-
-
 
 #Creating Training and Testing Data for other Models ----------------------
 

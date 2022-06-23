@@ -3,5 +3,4 @@ alpha_vantage
 yfinance
 pandas
 plotly
-68rbbfg
 matplotlib
